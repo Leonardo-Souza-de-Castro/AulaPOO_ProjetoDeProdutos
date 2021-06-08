@@ -14,7 +14,7 @@ namespace AulaPOO_ProjetoDeProdutos
             Usuario usuario = new Usuario();
             Login login = new Login();
             int i = 0;
-            Console.WriteLine("O que deseja fazer? \n 1 - Cadastrar \n 2 - Deletar Cadastro \n 3 - Logar \n 4 - Deslogar");
+            Console.WriteLine("O que deseja fazer? \n 1 - Cadastrar \n 2 - Logar ");
             string resposta = Console.ReadLine();
 
             switch (resposta)
@@ -33,16 +33,9 @@ namespace AulaPOO_ProjetoDeProdutos
                 repetir = true;
                     break;
                 case "2":
-                usuario.Deletar(usuario);
-                repetir = false;
-                    break;
-                case "3":
                 login.Logar(usuario);
-                repetir = true;
-                    break;
-                case "4":
-                login.Deslogar(usuario);
                 repetir = false;
+                /* Aqui entra a parte dos menus para cadastro de marca e produto, delete de usuario e deslogar */
                     break;
                 default:
                 Console.WriteLine("Opção não encontrada digite algo valido");

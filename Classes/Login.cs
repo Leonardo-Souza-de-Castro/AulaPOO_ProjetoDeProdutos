@@ -13,7 +13,7 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
         {
             if (Logado == true)
             {
-                    Console.WriteLine($@"{usuario.Nome} deslogado com sucesso");
+                Console.WriteLine($@"{usuario.Nome} deslogado com sucesso");
             }
             else
             {
@@ -29,14 +29,19 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                 string email = Console.ReadLine();
                 Console.Write("Insira sua Senha: ");
                 string senha = Console.ReadLine();
+                
                 Usuario usuario_encontrado = usuario.usuarios.Find(item => item.Senha == senha && item.Email == email);
                 Console.WriteLine(email, senha, usuario_encontrado);
                     if (usuario_encontrado != null)
                     {
                         Console.WriteLine("Usuario encontrado!");
+                        tentar_novamente = false;
+                        Logado = true;
                     }else
                     {
                         Console.WriteLine("Usuario ou senha incorretos");
+                        tentar_novamente = true;
+                        Logado = false;
                     }
                
             } while (tentar_novamente);

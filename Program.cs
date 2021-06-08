@@ -26,7 +26,9 @@ namespace AulaPOO_ProjetoDeProdutos
                 Console.WriteLine("Qual seu Email");
                 usuario.Email = Console.ReadLine(); 
                 Console.WriteLine("Qual sua Senha");
-                usuario.Senha = Console.ReadLine(); 
+                usuario.Senha = Console.ReadLine();
+                usuario.Data_cadastro = DateTime.Now;
+                Console.WriteLine($@"A data do cadastro foi {usuario.Data_cadastro}"); 
                 usuario.Cadastrar(usuario);
                 repetir = true;
                     break;
@@ -43,6 +45,8 @@ namespace AulaPOO_ProjetoDeProdutos
                 repetir = false;
                     break;
                 default:
+                Console.WriteLine("Opção não encontrada digite algo valido");
+                repetir = true;
                     break;
             }
             } while (repetir);

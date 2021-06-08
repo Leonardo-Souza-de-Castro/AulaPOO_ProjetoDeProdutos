@@ -8,19 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dev\\.nuget\\packages\\": {}
+    "C:\\Users\\guilherme_2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dev\\Desktop\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos.csproj",
+      "projectUniqueName": "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\TUDO DE C#\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos.csproj",
       "projectName": "AulaPOO_ProjetoDeProdutos",
-      "projectPath": "C:\\Users\\dev\\Desktop\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos.csproj",
-      "packagesPath": "C:\\Users\\dev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dev\\Desktop\\AulaPOO_ProjetoDeProdutos\\obj\\",
+      "projectPath": "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\TUDO DE C#\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos.csproj",
+      "packagesPath": "C:\\Users\\guilherme_2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\TUDO DE C#\\AulaPOO_ProjetoDeProdutos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dev\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\guilherme_2\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

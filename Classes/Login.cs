@@ -72,6 +72,7 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                                     case "0":
                                         Deslogar(usuario_logado);
                                         reiniciar_menu = false;
+                                        recomecar_menu1 = true;
                                         break;
                                     default:
                                         reiniciar_menu = true;

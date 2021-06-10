@@ -27,10 +27,12 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
             
             if (usuarios.Count > 0)
             {
+            
             foreach (var item in usuarios)
             {
-                Console.WriteLine($"teste lista: {item.Nome}");
+                Console.WriteLine($"\nUsuarios cadastrados: {item.Nome} \n");
             }
+
             Console.WriteLine("Digite o nome de usuario a ser deletado");
             string usuario_deletar = Console.ReadLine();
             usuarios.RemoveAll(usuario => usuario.Nome == usuario_deletar);

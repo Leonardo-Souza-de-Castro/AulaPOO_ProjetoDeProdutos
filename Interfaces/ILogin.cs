@@ -4,7 +4,7 @@ namespace AulaPOO_ProjetoDeProdutos.Interfaces
 {
     public interface ILogin
     {
-        void Logar(Usuario usuario);
+        void Logar();
         void Deslogar(Usuario usuario);
     }
 }

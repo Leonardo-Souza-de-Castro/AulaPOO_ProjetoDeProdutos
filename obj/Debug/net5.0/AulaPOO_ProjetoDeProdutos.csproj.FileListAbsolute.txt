@@ -1,0 +1,32 @@
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.exe
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.deps.json
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.runtimeconfig.json
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.runtimeconfig.dev.json
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.dll
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\ref\AulaPOO_ProjetoDeProdutos.dll
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.pdb
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.csprojAssemblyReference.cache
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.AssemblyInfoInputs.cache
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.AssemblyInfo.cs
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.csproj.CoreCompileInputs.cache
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.dll
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\ref\AulaPOO_ProjetoDeProdutos.dll
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.pdb
+C:\Users\dev\Desktop\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.genruntimeconfig.cache
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.exe
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.deps.json
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.runtimeconfig.json
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.runtimeconfig.dev.json
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.dll
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\ref\AulaPOO_ProjetoDeProdutos.dll
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.pdb
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.csprojAssemblyReference.cache
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.AssemblyInfoInputs.cache
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.AssemblyInfo.cs
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.csproj.CoreCompileInputs.cache
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.dll
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\ref\AulaPOO_ProjetoDeProdutos.dll
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.pdb
+C:\Users\guilherme_2\Documents\trabalhos do leo\Senai\TUDO DE C#\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.genruntimeconfig.cache

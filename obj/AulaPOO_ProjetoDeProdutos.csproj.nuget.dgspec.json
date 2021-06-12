@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cliente\\Desktop\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos.csproj": {}
+    "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\TUDO DE C#\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cliente\\Desktop\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos.csproj": {
+    "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\TUDO DE C#\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cliente\\Desktop\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos.csproj",
+        "projectUniqueName": "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\TUDO DE C#\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos.csproj",
         "projectName": "AulaPOO_ProjetoDeProdutos",
-        "projectPath": "C:\\Users\\cliente\\Desktop\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos.csproj",
-        "packagesPath": "C:\\Users\\cliente\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cliente\\Desktop\\AulaPOO_ProjetoDeProdutos\\obj\\",
+        "projectPath": "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\TUDO DE C#\\AulaPOO_ProjetoDeProdutos\\AulaPOO_ProjetoDeProdutos.csproj",
+        "packagesPath": "C:\\Users\\guilherme_2\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\guilherme_2\\Documents\\trabalhos do leo\\Senai\\TUDO DE C#\\AulaPOO_ProjetoDeProdutos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cliente\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\guilherme_2\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

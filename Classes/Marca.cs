@@ -31,10 +31,25 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
             return "Marca Cadastrada";
         }
 
-        public string Deletar(Marca marcaDeletar)
+        public void Deletar()
         {
-            listaMarcas.Remove(marcaDeletar);
-            return "Marca deletada";
+            if (listaMarcas.Count > 0)
+            {
+            
+            foreach (var item in listaMarcas)
+            {
+                Console.WriteLine($"\nMarcas Cadastrados: {item.NomeMarca} \n");
+            }
+
+            Console.WriteLine("Digite o nome do marca a ser deletado");
+            string marca_deletar = Console.ReadLine();
+            listaMarcas.RemoveAll(item => item.NomeMarca == marca_deletar);
+            Console.WriteLine($@"Marca: {marca_deletar}, foi removido do sistema");
+            }
+            else
+            {
+                Console.WriteLine("Não a marcas a serem deletados");
+            }
         }
 
         public void Listar()

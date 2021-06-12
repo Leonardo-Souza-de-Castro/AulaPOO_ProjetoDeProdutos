@@ -10,16 +10,18 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
         public string NomeProduto { get; set; }
         public DateTime DataCadastroP { get; set; }
         public float Preco { get; set; }
-        public Marca marca { get; set; }
-        public Usuario user7 { get; set; }
+        public string marca { get; set; }
+        public string user7 { get; set; }
 
         public List<Produto> ListaProdutos = new List<Produto>();
+
+        Usuario us = new Usuario();
 
         public Produto()
         {
 
         }
-        public Produto(string _nome, float _preco, Marca mar, Usuario us)
+        public Produto(string _nome, float _preco, string mar, Usuario user)
         {
             this.NomeProduto = _nome;
             this.DataCadastroP = DateTime.Now;
@@ -27,7 +29,7 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
             this.marca = mar;
             Random cod = new Random();
             this.CodigoProduto = cod.Next(0, 9999);
-            this.user7 = us;
+            this.user7 = user.Nome;
         }
         public string Cadastrar(Produto produto)
         {
@@ -47,7 +49,7 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                 ============================================
                 |Data de cadastro: {item.DataCadastroP}
                 ============================================
-                |Marca: {item.marca.NomeMarca}
+                |Marca: {item.marca}
                 ============================================
                 |Preço: {item.Preco:C2}
                 ============================================
@@ -58,10 +60,25 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
             }
         }
 
-        public string Deletar(Produto produto)
+        public void Deletar()
         {
-            ListaProdutos.Remove(produto);
-            return "Produto removido com sucesso!";
+            if (ListaProdutos.Count > 0)
+            {
+            
+            foreach (var item in ListaProdutos)
+            {
+                Console.WriteLine($"\nProdutos Cadastrados: {item.NomeProduto} \n");
+            }
+
+            Console.WriteLine("Digite o nome do produto a ser deletado");
+            string produto_deletar = Console.ReadLine();
+            ListaProdutos.RemoveAll(item => item.NomeProduto == produto_deletar);
+            Console.WriteLine($@"Produto: {produto_deletar}, foi removido do sistema");
+            }
+            else
+            {
+                Console.WriteLine("Não a usuarios a serem deletados");
+            }
         }
     }
 }

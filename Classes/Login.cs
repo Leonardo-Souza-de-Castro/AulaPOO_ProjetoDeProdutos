@@ -15,6 +15,12 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
 
         Usuario usuario = new Usuario();
         Usuario usuario_logado = new Usuario();
+
+        Produto produto = new Produto();
+
+        Marca marca = new Marca();
+
+        public string email = null;
         public Login(int i)
         {
             do
@@ -52,22 +58,93 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                             recomecar_menu1 = false;
                             do
                             {
-                                Console.WriteLine("O que fazer agora? \n 1 - Cadastrar Produto \n 2 - Listar Produtos \n 3 - Cadastrar Marcas \n 4 - Listar Marcas \n 0 - Deslogar");
+                                Console.WriteLine("O que fazer agora? \n1 - Cadastrar Produto \n2 - Listar Produtos \n3 - Cadastrar Marcas \n4 - Listar Marcas \n5 - Deletar Produto \n6 - Deletar Marca \n0 - Deslogar");
                                 string fazer = Console.ReadLine();
 
                                 switch (fazer)
                                 {
                                     case "1":
-                                        reiniciar_menu = true;
+                                        if (marca.listaMarcas.Count > 0)
+                                        {
+                                            Console.WriteLine($"Qual o nome do produto?");
+                                            string Nome = Console.ReadLine();
+                                            Console.WriteLine($"Qual o preço do produto?");
+                                            float preco = float.Parse(Console.ReadLine());
+
+                                            marca.Listar();
+                                            Console.WriteLine("Qual o nome da marca que você deseja?");
+                                            string resposta_nome = Console.ReadLine();
+
+                                            string marca_escolhida = marca.listaMarcas.Find(item => item.NomeMarca == resposta_nome).NomeMarca;
+                                            Usuario user = usuario.usuarios.Find(item => item.Email == email);
+                                            Produto cadastrar_produto = new Produto(Nome, preco, marca_escolhida, user);
+                                            produto.Cadastrar(cadastrar_produto);
+                                            reiniciar_menu = true;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine($"Por favor cadastre uma marca antes");
+                                            reiniciar_menu = true;
+                                        }
+
                                         break;
                                     case "2":
-                                        reiniciar_menu = true;
+                                        if (produto.ListaProdutos.Count > 0)
+                                        {
+                                            produto.Listar();
+                                            reiniciar_menu = true;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine($"Cadastre um produto antes de listar");
+                                            reiniciar_menu = true;
+                                        }
+
                                         break;
                                     case "3":
+                                        Console.WriteLine("Qual o nome da marca?");
+                                        string nome_marca = Console.ReadLine();
+
+                                        Marca cadastrar_marca = new Marca(nome_marca);
+
+                                        marca.Cadastrar(cadastrar_marca);
                                         reiniciar_menu = true;
                                         break;
                                     case "4":
-                                        reiniciar_menu = true;
+                                        if (marca.listaMarcas.Count > 0)
+                                        {
+                                            marca.Listar();
+                                            reiniciar_menu = true;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine($"Cadastre uma marca antes de listar");
+                                            reiniciar_menu = true;
+                                        }
+                                        break;
+                                    case "5":
+                                        if (produto.ListaProdutos.Count > 0)
+                                        {
+                                            produto.Deletar();
+                                            reiniciar_menu = true;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine($"Cadastre um produto antes de deletar");
+                                            reiniciar_menu = true;
+                                        }
+                                        break;
+                                    case "6":
+                                        if (produto.ListaProdutos.Count > 0)
+                                        {
+                                            marca.Deletar();
+                                            reiniciar_menu = true;
+                                        }
+                                        else
+                                        {
+                                            Console.WriteLine($"Cadastre uma marca antes de deletar");
+                                            reiniciar_menu = true;
+                                        }
                                         break;
                                     case "0":
                                         Deslogar(usuario_logado);
@@ -116,7 +193,7 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
             do
             {
                 Console.Write("Insira seu Email: ");
-                string email = Console.ReadLine();
+                email = Console.ReadLine();
                 Console.Write("Insira sua Senha: ");
                 string senha = Console.ReadLine();
 

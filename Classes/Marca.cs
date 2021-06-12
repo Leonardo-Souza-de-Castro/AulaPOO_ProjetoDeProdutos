@@ -35,16 +35,16 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
         {
             if (listaMarcas.Count > 0)
             {
-            
-            foreach (var item in listaMarcas)
-            {
-                Console.WriteLine($"\nMarcas Cadastrados: {item.NomeMarca} \n");
-            }
 
-            Console.WriteLine("Digite o nome do marca a ser deletado");
-            string marca_deletar = Console.ReadLine();
-            listaMarcas.RemoveAll(item => item.NomeMarca == marca_deletar);
-            Console.WriteLine($@"Marca: {marca_deletar}, foi removido do sistema");
+                foreach (var item in listaMarcas)
+                {
+                    Console.WriteLine($"\nMarcas Cadastrados: {item.NomeMarca} \n");
+                }
+
+                Console.WriteLine("Digite o nome do marca a ser deletado");
+                string marca_deletar = Console.ReadLine();
+                listaMarcas.RemoveAll(item => item.NomeMarca == marca_deletar);
+                Console.WriteLine($@"Marca: {marca_deletar}, foi removido do sistema");
             }
             else
             {

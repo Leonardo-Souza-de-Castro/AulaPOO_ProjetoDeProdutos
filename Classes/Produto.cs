@@ -62,9 +62,6 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
 
         public void Deletar()
         {
-            if (ListaProdutos.Count > 0)
-            {
-            
             foreach (var item in ListaProdutos)
             {
                 Console.WriteLine($"\nProdutos Cadastrados: {item.NomeProduto} \n");
@@ -74,11 +71,6 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
             string produto_deletar = Console.ReadLine();
             ListaProdutos.RemoveAll(item => item.NomeProduto == produto_deletar);
             Console.WriteLine($@"Produto: {produto_deletar}, foi removido do sistema");
-            }
-            else
-            {
-                Console.WriteLine("Não a usuarios a serem deletados");
-            }
         }
     }
 }

@@ -135,7 +135,7 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                                         }
                                         break;
                                     case "6":
-                                        if (produto.ListaProdutos.Count > 0)
+                                        if (marca.listaMarcas.Count > 0)
                                         {
                                             marca.Deletar();
                                             reiniciar_menu = true;

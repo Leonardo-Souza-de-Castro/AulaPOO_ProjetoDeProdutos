@@ -169,7 +169,7 @@ namespace AulaPOO_ProjetoDeProdutos.Classes
                         recomecar_menu1 = true;
                         break;
                     default:
-                        Console.WriteLine("Opção Invalida seu imbecil");
+                        Console.WriteLine("Opção Invalida");
                         break;
                 }
             } while (recomecar_menu1);
